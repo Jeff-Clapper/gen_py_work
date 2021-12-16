@@ -17,5 +17,5 @@ process_id = os.getpid()
 
 print(f'current directory: {current_dir}')
 
-os.chdir('')
+os.chdir("""FILE NAME HERE""")
 print(os.getcwd())
