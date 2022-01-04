@@ -1,0 +1,6 @@
+Hello world
+
+I am working with files on my computer with python
+
+I'm gonna be the very best! Like no one ever was!
+this is new...
