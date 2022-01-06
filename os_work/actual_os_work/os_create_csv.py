@@ -24,7 +24,7 @@ complete_path = os.path.join(target,file)
 
 with open(complete_path,'w', newline='') as myFile:
     writer = csv.writer(myFile)
-    writer.writerow(['cat_id','group','major_cat','minor_cat_1','minor_cat_2','minor_cat_3'])
+    writer.writerow(['cat_id','group','major_cat','minor_cat_1','sub_cat'])
     rows = []
     for category in categories:
         row = [category['category_id'],category['group']]
