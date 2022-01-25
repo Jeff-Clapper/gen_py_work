@@ -29,4 +29,12 @@ print(get_subfolder_count(curr_dir))
 
 os.chdir(f"{curr_dir}\\{previous}")
 stats = os.stat("new_file_2.txt")
-print(stats)
+other_stats = os.stat("new_file.txt")
+other_other = os.stat(".\\te_sting\\")
+pip = os.stat(".\\Pipfile")
+hidden = os.stat(".\\.test\\")
+piplock = os.stat(".\\pipfile.lock")
+csv = os.stat(".\\myFile.csv")
+
+
+print(hidden["st_mode"])
